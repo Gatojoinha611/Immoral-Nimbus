@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immortal Nimbus - Legados Digitais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="Img/Logo.png" alt="Immortal Nimbus Logo"></a>
+        </div>
+        <ul>
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#sobre" class="nav-link">Sobre</a></li>
+            <li><a href="#servicos" class="nav-link">Serviços</a></li>
+            <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="content-box">
+            <h1>IMMORTALIZE SUA PRESENÇA DIGITAL</h1>
+            <p>Transformamos sua visão em uma presença online eterna, com designs únicos e tecnologia de ponta.</p>
+            <a href="#servicos" class="btn btn-purple">Nossos Serviços</a>
+            <a href="#contato" class="btn btn-purple">Fale Conosco</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <div class="content-box about-container">
+            <div class="about-text">
+                <h2>SOBRE NÓS</h2>
+                <p>A Immortal Nimbus nasceu em 2023, inspirada pela simbologia do Olho de Hórus — que representa proteção e visão — e pela força transformadora das nuvens Nimbus. Fundada por uma equipe apaixonada por tecnologia e design, nossa missão é criar presenças digitais que resistam ao tempo, combinando criatividade com soluções técnicas avançadas. Com sede no Brasil, valorizamos a autenticidade, a inovação e a parceria com nossos clientes, transformando suas histórias em legados digitais únicos. Até hoje, entregamos mais de 50 projetos com 100% de satisfação, sempre buscando elevar marcas e indivíduos com um toque pessoal e inovador.</p>
+                <div class="stats">
+                    <span>50+ Projetos</span>
+                    <span>100% Satisfação</span>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="Img/sobre-image.png" alt="Sobre Immortal Nimbus" class="about-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="section">
+        <div class="content-box services-container">
+            <h2>NOSSOS SERVIÇOS</h2>
+            <div class="services-grid">
+                <div class="service-card" onclick="showPopup('sites')">
+                    <span class="icon">🌐</span>
+                    <h3>SITES SOB MEDIDA</h3>
+                    <p>Criamos sites personalizados que vão além de um design bonito, adaptando cada detalhe às necessidades do seu negócio. Desde layouts responsivos que funcionam perfeitamente em qualquer dispositivo até integrações de funcionalidades específicas, como e-commerce ou portfólios interativos, nosso foco é entregar uma experiência online que engaje seus clientes e reflita sua identidade única.</p>
+                </div>
+                <div class="service-card" onclick="showPopup('design')">
+                    <span class="icon">✨</span>
+                    <h3>DESIGN ATEMPORAL</h3>
+                    <p>Nosso design atemporal combina estética sofisticada com funcionalidade, criando visuais que não seguem modismos passageiros. Trabalhamos lado a lado com você para entender sua marca, usando paletas de cores impactantes, tipografias elegantes e layouts intuitivos, garantindo que seu site ou material digital seja um reflexo duradouro da sua essência.</p>
+                </div>
+                <div class="service-card" onclick="showPopup('visibilidade')">
+                    <span class="icon">🔍</span>
+                    <h3>VISIBILIDADE DIGITAL</h3>
+                    <p>Aumentamos sua presença online com estratégias de otimização que colocam seu site no topo das buscas. Realizamos análises detalhadas do mercado, otimizamos palavras-chave, melhoramos a velocidade de carregamento e implementamos práticas de SEO avançadas, tudo para garantir que seu público-alvo encontre você facilmente e sua marca cresça de forma orgânica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <div class="content-box">
+            <h2>NOSSOS PROJETOS</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="Img/fsite1.png" alt="Projeto 1">
+                </div>
+                <div class="project-card">
+                    <img src="Img/fsite2.png" alt="Projeto 2">
+                </div>
+            </div>
+            <a href="projetos.html" class="btn btn-purple">Ver todos os projetos</a>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="content-box">
+            <h2>ENTRE EM CONTATO</h2>
+            <p>Entre em contato conosco e comece a construir sua presença digital hoje mesmo!</p>
+            <a href="https://wa.me/5511987328781" class="btn btn-green">Fale pelo WhatsApp</a>
+            <p>Ou nos envie uma mensagem diretamente:</p>
+            <p>+55 (11) 98732-8781</p>
+            <p>E-mail: imtnimbus@contatos.com</p>
+            <div class="social-icons">
+                <img src="Img/wppicon.png" alt="WhatsApp" class="social-icon">
+                <img src="Img/instaicon.png" alt="Instagram" class="social-icon">
+                <img src="Img/xicon.png" alt="Twitter" class="social-icon">
+            </div>
+        </div>
+    </section>
+
+    <a href="#contato" class="floating-contact-btn">Contato</a>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="Img/Logo.png" alt="Immortal Nimbus Logo">
+            </div>
+            <div class="footer-contact">
+                <p>+55 (11) 98732-8781</p>
+                <p>imtnimbus@contatos.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Immortal Nimbus | Todos os direitos reservados
+        </div>
+    </footer>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">×</span>
+            <h2 id="popup-title"></h2>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
